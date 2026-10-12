@@ -81,8 +81,16 @@ body {
   text-align: left;
 }
 
-.features li:not(:last-child) {
-  margin-bottom: 6px;
+.features li {
+  margin: 6px 0;
+}
+
+.features li:first-child {
+  margin-top: 0;
+}
+
+.features li:last-child {
+  margin-bottom: 0;
 }
 
 .features li::before {
